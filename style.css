@@ -1,0 +1,121 @@
+/* ===== General Page Styling ===== */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #f5f6fa;
+    color: #2f3640;
+}
+
+/* ===== Header ===== */
+header {
+    background: linear-gradient(to right, #0a3d62, #1e6fa8);
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* ===== Sections ===== */
+section {
+    padding: 30px;
+}
+
+/* ===== Flexbox Layout ===== */
+.media-form-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* ===== Images ===== */
+img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* ===== Video & Audio ===== */
+video, audio {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+/* ===== Form Styling ===== */
+form {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 18px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease;
+}
+
+/* ===== Focus & Hover Effects ===== */
+input:focus, select:focus, textarea:focus {
+    border-color: #1e6fa8;
+    box-shadow: 0 0 5px rgba(30,111,168,0.5);
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: #0a3d62;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* ===== Button Transition ===== */
+input[type="submit"]:hover {
+    background-color: #1e6fa8;
+    transform: scale(1.05);
+}
+
+/* ===== Footer ===== */
+footer {
+    background-color: #dcdde1;
+    text-align: center;
+    padding: 12px;
+    font-size: 14px;
+}
+
+/* ===== Media Queries ===== */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    form {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 20px;
+    }
+
+    input, select, textarea {
+        font-size: 14px;
+    }
+}

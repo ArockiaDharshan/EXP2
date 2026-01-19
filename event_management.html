@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Event Registration Portal</title>
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+
+<body>
+
+<header>
+    <h1>Tech Innovators Conference 2026</h1>
+    <p>Register now to explore the future of technology</p>
+</header>
+
+<!-- Event Banner Image -->
+<section>
+    <img src="event-banner.jpg" alt="Event Banner">
+</section>
+
+<!-- Promotional Video -->
+<section>
+    <h2>Event Promo Video</h2>
+    <video width="100%" controls>
+        <source src="promo-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</section>
+
+<!-- Background Audio -->
+<section>
+    <h2>Event Theme Music</h2>
+    <audio controls>
+        <source src="background-audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</section>
+
+<!-- Registration Form -->
+<section>
+    <h2>Event Registration Form</h2>
+    <form>
+        <label>Full Name:</label>
+        <input type="text" placeholder="Enter your name" required>
+
+        <label>Email Address:</label>
+        <input type="email" placeholder="Enter your email" required>
+
+        <label>Date of Birth:</label>
+        <input type="date" required>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <input type="radio" name="gender"> Other
+        <br><br>
+
+        <label>Event Category:</label>
+        <select>
+            <option>AI & Machine Learning</option>
+            <option>Web Development</option>
+            <option>Cyber Security</option>
+            <option>Cloud Computing</option>
+        </select>
+
+        <label>Why do you want to attend?</label>
+        <textarea rows="4" placeholder="Write here..."></textarea>
+
+        <label>Upload ID Proof:</label>
+        <input type="file">
+
+        <input type="submit" value="Register">
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Tech Innovators Conference</p>
+</footer>
+
+</body>
+</html>
